@@ -16,3 +16,15 @@
 - php artisan make:model Customer -m
 - php artisan make:model Order -m
 - php artisan make:model OrderItem -m
+- Migrate DB
+- Setup Model Relationships
+- Make a seeder for setting up test order
+- php artisan make:seeder TestDataSeeder
+- Add to DatabaseSeeder
+- php artisan db:seed
+- Create php artisan make:resource OrderResource
+- Create route and controller
+- php artisan make:controller Api/OrderController
+- Add route to api.php
+- Test in browser and Postman
+- https://order-tracker-api.test/api/orders/1
