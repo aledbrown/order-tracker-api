@@ -29,6 +29,31 @@
 - Test in browser and Postman
 - https://order-tracker-api.test/api/orders/1
 
+### Expected result
+```json
+{
+    "order_id": 1,
+    "customer": {
+        "name": "Jane Doe",
+        "email": "jane@example.com"
+    },
+    "order_date": "2025-10-08",
+    "items": [
+        {
+            "product_name": "Keyboard",
+            "quantity": 2,
+            "price": 25
+        },
+        {
+            "product_name": "Mouse",
+            "quantity": 1,
+            "price": 15
+        }
+    ],
+    "total": 65
+}
+```
+
 ### Setup Information
 - For macOS running Laravel Herd (correct at time of writing)
 - Open Terminal.app on macOS then run the following commands

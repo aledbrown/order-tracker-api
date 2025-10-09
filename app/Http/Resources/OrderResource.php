@@ -7,6 +7,8 @@ use Illuminate\Http\Resources\Json\JsonResource;
 
 class OrderResource extends JsonResource
 {
+    public static $wrap = null; // disables the 'data' key
+
     public function toArray(Request $request): array
     {
         return [
