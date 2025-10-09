@@ -12,7 +12,7 @@
 - Turn on PINT inspection in PHPStorm
 - Use default SQLite database
 - Remote web front end views and update / web route
-- Create a new model and migrations
+- Create models and migrations
 - php artisan make:model Customer -m
 - php artisan make:model Order -m
 - php artisan make:model OrderItem -m
